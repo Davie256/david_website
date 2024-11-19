@@ -1,0 +1,632 @@
+/*==================================BODY==============================*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+/*==================================HEADER==============================*/
+#header {
+    background-color: black;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#header ul {
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#header ul li {
+    text-align: left;
+    display: inline;
+    
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 70%;
+}
+
+#icons {
+   margin-right: 200px;
+   padding: 10px;
+}
+
+.fa-facebook {
+   color:  rgb(160, 31, 31);
+   font-size: 130%;
+   padding-right: 5px;
+}
+
+.fa-square-instagram {
+   color:  rgb(160, 31, 31);
+   font-size: 130%;
+   padding-right: 5px;
+   
+}
+
+.fa-square-twitter {
+   color:  rgb(160, 31, 31);
+   font-size: 130%;
+   padding-right: 5px;
+}
+
+.fa-square-youtube {
+   color:  rgb(160, 31, 31);
+   font-size: 130%;
+}
+
+.fa-envelope {
+   color:  rgb(235, 193, 8);
+}
+
+.fa-phone-volume {
+   color:   rgb(235, 193, 8);
+}
+
+.fa-location-dot {
+   color:  rgb(235, 193, 8);
+}
+
+/*==================================NAV BAR============================*/
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.image1 {
+   padding: 10px 10px 10px 10px;
+   margin-left: 180px;
+   margin-top: 0px;
+}
+
+.navdiv ul {
+    list-style: none;
+    margin-right: 150px;
+}
+
+.navdiv ul li {
+    display: inline-block;
+    text-align: right;
+    padding:  0px 10px 10px 10px;
+    text-align: center;
+   position: relative; 
+}
+
+.navdiv  ul li a {
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 90%;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.dropdown1 {
+   display: none;
+   width: 750px;
+   text-align: center;
+}
+
+.navdiv ul li:hover .dropdown1 {
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 100%;
+   background-color: whitesmoke;
+   
+}
+
+.dropdown1 ul {
+   display: block;
+   margin: 10px;
+   
+}
+
+.dropdown1 ul li {
+   width: 200px;
+   text-align: left;
+   font-size: 80%;
+}
+
+.drop1 {
+   width: 100px;
+   float: left;
+}
+
+.drop2 {
+   width:300px;
+   float: right;
+}
+
+.drop3 {
+   width: 200px;
+   float: right;
+   
+}
+
+
+
+
+
+
+.dropdown2 {
+   display: none;
+   width: 200px;
+   text-align: left;
+}
+
+.navdiv ul li:hover .dropdown2 {
+   display: block;
+   position: absolute;
+   top: 100%;
+   background-color: whitesmoke;
+   
+}
+
+.dropdown2 ul {
+   display: block;
+   margin: 10px;
+   
+}
+
+.dropdown2 ul li {
+   width: 200px;
+   text-align: left;
+   font-size: 80%;
+}
+
+.dropdown2 ul li a {
+   text-align: left;
+}
+
+
+
+
+
+.dropdown3 {
+   display: none;
+   width: 150px;
+   text-align: left;
+}
+
+.navdiv ul li:hover .dropdown3 {
+   display: block;
+   position: absolute;
+   top: 100%;
+   background-color: whitesmoke;
+   
+}
+
+.dropdown3 ul {
+   display: block;
+   margin: 10px;
+   
+}
+
+.dropdown3 ul li {
+   width: 250px;
+   font-size: 80%;
+}
+
+
+
+ul li a:hover {
+   color: red;
+   text-align: left;
+}
+
+ul li a:hover ul.dropdown {
+   display: block;
+}
+
+
+
+.navdiv  ul button {
+    background-color: rgb(160, 31, 31);
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+}
+ 
+.navdiv  ul button a {
+    color: white;
+    font-weight: bold;
+    font-size: 90%;
+    text-align: center;
+}
+
+/*================================== MAIN ============================*/
+
+#main {
+    background-color: rgb(14, 14, 41);
+    padding-top: 10px;
+}
+
+.para1 {
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 170%;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.para2 {
+    color: white;
+    text-align: center;
+    font-size: 100%;   
+}
+
+.butt {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+button {
+    background-color: rgb(160, 31, 31);
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+}
+ 
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 90%;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+/*================================== MAIN 1 ============================*/
+
+.image2 {
+    padding: 45px;
+    margin-left: 110px;
+    border-radius: 60px;
+ }
+
+ .text {
+    float: right;
+    width: 650px;
+    padding-top: 65px;
+    padding-right: 50px;
+ }
+
+ .par1 {
+    font-size: 70%;
+    color: red;
+ }
+
+ .par2 {
+    font-size: 210%;
+    color: black;
+    font-weight: bold;
+    
+ }
+
+ .par3 {
+    font-size: 90%;
+    color: rgb(77, 73, 73);
+    padding-bottom: 10px;
+ }
+
+ /*================================== MAIN 2 ============================*/
+
+ .main2 {
+    background-color: rgb(32, 23, 6);
+ }
+
+ .m1 {
+    color: white;
+    font-weight: bold; 
+    text-align: center;
+    font-size: 180%;
+    padding-top: 250px;
+ }
+
+ .m2 {
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    margin-left: 370px;
+    margin-right: 370px;
+    padding-bottom: 200px;
+    
+ }
+
+ /*================================== SLIDES ============================*/
+
+ .slides {
+    padding: 10px;
+    
+    position: absolute;
+    left: 155px;
+    top: 1620px;
+ }
+
+ .imagex {
+    width: 350px;
+    height: 190px;
+    align-items: center;
+    border-radius: 15px
+ }
+
+ p.paras {
+    background-color: white;
+    width: 370;
+    height: 200;
+    padding: 20px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+ }
+
+ .line1 {
+    display: flex;
+    line-height: normal;
+ }
+
+ .line2 {
+    display: flex;
+ }
+
+ /*================================== CLIENTS ============================*/
+
+.but {
+   position: absolute;
+    top: 2210px;
+    left: 700px;
+}
+
+.clients {
+    margin-top: 300px;
+    padding: 50px;
+    height: 700px;
+}
+
+.imagew {
+    width: 400px;
+    margin-left: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 580px;
+
+    position: absolute;
+    top: 2178px;
+}
+
+.happy {
+    margin-top: 20px;
+ }
+
+ p.color{
+    margin-top : 200px;
+    background-color: rgb(31, 31, 68);
+    padding: 20px;
+    height: 447px;
+ }
+
+ .edits {
+    float: right;
+    margin-top: -450px;
+    padding: 40px;
+    width: 800px;
+    
+ }
+
+ .head {
+    font-size: 70%;
+    color: whitesmoke;
+    font-weight: bold;
+    color: rgb(124, 121, 134);
+ }
+
+ .head1 {
+    font-size: 190%;
+    color: white;
+    font-weight: bold;
+ }
+
+ .head2 {
+    font-size: 68%;
+    color: rgb(124, 121, 134);
+    font-weight: bold;
+    background-color: white;
+    padding: 20px;
+    margin-right: 95px;
+ }
+
+ .name {
+    font-size: 120%;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    color: rgb(124, 121, 134);
+ }
+
+ .office {
+    font-size: 80%;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    color: rgb(124, 121, 134);
+ }
+
+ /*================================== PARTNERS ============================*/
+
+ .heading {
+   text-align: center;
+   font-size: 160%;
+   font-weight: bold;
+   padding: 20px;
+   margin-top: 0px;
+ }
+
+ .imageList {
+   text-align: center;
+ }
+
+ .imagep {
+   padding: 10px;
+   border-radius: 20px;
+   margin-bottom: 30px;
+ }
+
+
+ /*================================== SUMMARY ============================*/
+
+ #summary {
+   background-color: rgb(31, 31, 68);
+   display: flex;
+   border-bottom: 2px;
+   border-color: white;
+ }
+
+ p.sum {
+   margin-left: 0px;
+   margin-right: 200px;
+   text-align: center;
+ }
+
+ h1 {
+   font-size: 120%;
+   color: yellow;
+   
+ }
+
+ .contact {
+   font-size: 100%;
+   color: white;
+   padding: 30px;
+   
+ }
+
+.contact ul {
+   list-style: none;
+   padding: 0px;
+}
+
+.contact ul li {
+   padding: 2px;
+}
+ .contact ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 80%;
+   
+ }
+
+ .products {
+   font-size: 100%;
+   padding: 30px;
+   margin-left: 10px;
+ }
+
+ .products ul {
+   list-style: none;
+   padding: 0px;
+}
+
+.products ul li {
+   padding: 2px;
+}
+.products ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 80%;
+   
+ }
+
+ .quick {
+   font-size: 100%;
+   padding: 30px;
+ }
+
+ .quick ul {
+   list-style: none;
+   padding: 0px;
+}
+
+.quick ul li {
+   padding: 2px;
+}
+.quick ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 80%;
+   
+ }
+
+ .subscribe {
+   font-size: 100%;
+   padding: 30px;
+ }
+
+ p.sub {
+   color: white;
+   font-size: 80%;
+   padding: 10px;
+   text-align: left;
+   width: 300px;
+   padding: 10px;
+ }
+
+  /*================================== FOOTER ============================*/
+
+#footer {
+   background-color: rgb(31, 31, 68);
+   display: flex;
+   justify-content: space-between;
+   border-color: white;
+   border-width: 2px;
+}
+
+p.copy {
+   color: white;
+   font-size: 80%;
+   margin-left: 100px;
+   margin-top: 30px;
+  
+}
+
+.policy {
+   font-size: 120%;
+   
+}
+
+.policy ul {
+   list-style: none;
+   float: left;
+   width: 600px;
+}
+
+.policy ul li {
+   padding: 0px;
+   display: inline-block;
+}
+
+.policy ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 80%;
+   padding: 10px;
+ }

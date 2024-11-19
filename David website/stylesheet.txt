@@ -1,0 +1,39 @@
+/*==================================HEADER=====================================*/
+
+#header ul {
+padding: 5px;
+list-style: none;
+text-align: center;
+background-color: black;
+overflow: hidden;
+}
+
+#header ul il {
+float: left;
+}
+
+#header ul il a {
+text-decoration: none;
+font-family: Arial;
+color: white;
+display: block;
+}
+
+/*==================================NAV BAR=====================================*/
+
+#navbar ul {
+padding: 5px;
+list-style: none;
+text-align: center;
+background-color: white;
+}
+
+#navbar ul il {
+display: inline;
+}
+
+#navbar ul il a {
+text-decoration: none;
+font-family: Arial;
+color: black;
+}
